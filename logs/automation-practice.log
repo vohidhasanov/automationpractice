@@ -55,3 +55,11 @@
 2019-11-03 11:09:33 ERROR TestNGListener -main : 19 - error is thrown
 2019-11-03 11:09:33 ERROR TestNGListener -main : 22 - error
 2019-11-03 11:09:41 INFO  Common -main : 18 - sleep for 3000 seconds
+2019-11-14 12:19:30 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 12:19:30 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 12:19:30 ERROR TestNGListener -main : 22 - error
+2019-11-14 12:19:47 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 12:19:47 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 12:19:47 ERROR TestNGListener -main : 22 - error
+2019-11-14 12:19:47 INFO  Common -main : 27 - random first name is generated: Anjali
+2019-11-14 12:19:47 INFO  Common -main : 32 - random last name is generated: Block
