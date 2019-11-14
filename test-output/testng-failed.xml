@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke test]">
-  <test thread-count="5" name="ChromeTests(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Automationpractice.user_registration.UserRegistration">
+      <class name="com.Automationpractice.login.LoginTests">
         <methods>
-          <include name="useerRegistration"/>
-          <include name="initializeReporter"/>
           <include name="closeBrowser"/>
-          <include name="init"/>
-          <include name="saveReport"/>
+          <include name="Login_with_invalid_userid"/>
         </methods>
-      </class> <!-- com.Automationpractice.user_registration.UserRegistration -->
+      </class> <!-- com.Automationpractice.login.LoginTests -->
     </classes>
-  </test> <!-- ChromeTests(failed) -->
-</suite> <!-- Failed suite [Smoke test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

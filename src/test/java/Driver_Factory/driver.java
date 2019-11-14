@@ -5,8 +5,10 @@ import Utils.DriverHelper;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
+import org.testng.annotations.AfterTest;
 
 import java.util.concurrent.TimeUnit;
 
@@ -26,7 +28,7 @@ public class driver {
         switch (browserType)
         {
             case  "chrome": driver=getChromeDriver();
-                    driver.manage().window().maximize();
+                  //  driver.manage().window().maximize();
                 break;
             case "firefox": driver=getFirefoxDriver();
                     driver.manage().window().maximize();
@@ -47,9 +49,11 @@ public class driver {
     public static ChromeDriver getChromeDriver()
     {
         WebDriverManager.chromedriver().setup();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--start-maximized");
 //        System.setProperty ("webdriver.chrome.driver", "E:\\JAVA\\AUTOMATION\\Compressed\\chromedriver_win32_2\\chromedriver.exe");
 //        ChromeDriver chromeDriver = new ChromeDriver();
-        return new ChromeDriver();
+        return new ChromeDriver(chromeOptions);
     }
 
     private static FirefoxDriver getFirefoxDriver ()
@@ -65,5 +69,11 @@ public class driver {
 //        OperaDriver operaDriver = new OperaDriver();
 
         return new OperaDriver();
+    }
+
+    @AfterTest
+    public void closeBrowser() {
+        driver.close();
+        driver.quit();
     }
 }

@@ -1,11 +1,10 @@
 package com.Automationpractice.login;
 
-import Driver_Factory.NonStaticDriver;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTests extends NonStaticDriver {//extends Driver_Factory.driver {
+public class LoginTests extends  Driver_Factory.driver {
 
     @Test(groups = {"functional", "integration"})
     public void testOne()
@@ -14,7 +13,7 @@ public class LoginTests extends NonStaticDriver {//extends Driver_Factory.driver
 @Test (groups = "functional")
     public void Login_with_invalid_userid()
     { // go to automationproctice.com
-        driver.get("http://automationpractice.com/");
+       driver.get("http://automationpractice.com/");
       //click signin button
         driver.findElement(By.className("login")).click();
         driver.findElement(By.id("email")).sendKeys("mynknownxadd@mailiminator.com");

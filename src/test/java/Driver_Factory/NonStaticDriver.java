@@ -7,6 +7,7 @@ import Utils.Reporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.testng.annotations.AfterMethod;
@@ -35,7 +36,7 @@ public class NonStaticDriver {
 
     @BeforeTest
     public void init() {
-        if (driver == null) driver = getDriver(AppProperties.BROWSER_TYPE);
+        if (driver == null) driver = getDriver();
         Common.deleteFiles("/target/screenshots");
         // if (driverHelper == null) driverHelper = new DriverHelper(driver);
     }
@@ -43,13 +44,13 @@ public class NonStaticDriver {
     protected NonStaticDriver() {
     }
 
-    protected WebDriver getDriver(String browserType) {
-       WebDriver driver = null;
+    protected WebDriver getDriver() {
+       String browserType = AppProperties.BROWSER_TYPE; //WebDriver driver = null;
         switch (browserType)
         {
             case "chrome":
                 driver = getChromeDriver();
-                driver.manage().window().maximize();
+               // driver.manage().window().maximize();
                 break;
             case "firefox":
                 driver = getFirefoxDriver();
@@ -72,7 +73,9 @@ public class NonStaticDriver {
 
     private static ChromeDriver getChromeDriver() {
         WebDriverManager.chromedriver().setup();
-        return new ChromeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--start-maximized");
+        return new ChromeDriver(chromeOptions);
     }
 
     private static FirefoxDriver getFirefoxDriver() {
