@@ -48,11 +48,11 @@ public class EDriver {
         {
             case "chrome":
                 sdriver = getChromeDriver();
-                //sdriver.manage().window().maximize();
+             //  sdriver.manage().window().maximize();
                 break;
             case "firefox":
                 sdriver = getFirefoxDriver();
-                sdriver.manage().window().maximize();
+               // sdriver.manage().window().maximize();
                 break;
             case "chrome-headless":
                     sdriver = getHeadlessChromeDriver();
