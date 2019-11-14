@@ -49,10 +49,10 @@ public class driver {
     public static ChromeDriver getChromeDriver()
     {
         WebDriverManager.chromedriver().setup();
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--start-maximized");
-//        System.setProperty ("webdriver.chrome.driver", "E:\\JAVA\\AUTOMATION\\Compressed\\chromedriver_win32_2\\chromedriver.exe");
-//        ChromeDriver chromeDriver = new ChromeDriver();
+       ChromeOptions chromeOptions = new ChromeOptions();
+       chromeOptions.addArguments("--start-maximized");
+        //System.setProperty ("webdriver.chrome.driver", "E:\\JAVA\\AUTOMATION\\Compressed\\chromedriver_win32_2\\chromedriver.exe");
+        //ChromeDriver chromeDriver = new ChromeDriver();
         return new ChromeDriver(chromeOptions);
     }
 

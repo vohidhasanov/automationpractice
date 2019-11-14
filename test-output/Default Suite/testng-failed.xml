@@ -6,7 +6,7 @@
       <class name="com.Automationpractice.login.LoginTests">
         <methods>
           <include name="closeBrowser"/>
-          <include name="Login_with_invalid_userid"/>
+          <include name="testOne"/>
         </methods>
       </class> <!-- com.Automationpractice.login.LoginTests -->
     </classes>

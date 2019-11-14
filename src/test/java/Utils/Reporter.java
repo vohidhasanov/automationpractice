@@ -16,8 +16,8 @@ public class Reporter {
         if (extentReports ==null)
         {
            extentHtmlReporter = new ExtentHtmlReporter("automationreport.html");
-//           extentReports = new ExtentReports();
-//           extentReports.attachReporter(extentHtmlReporter);
+           extentReports = new ExtentReports();
+           extentReports.attachReporter(extentHtmlReporter);
         }
     }
 

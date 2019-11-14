@@ -4,7 +4,6 @@ import Driver_Factory.EDriver;
 import Utils.AppProperties;
 import Utils.Common;
 import Utils.DriverHelper;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.Select;
@@ -14,7 +13,7 @@ import org.testng.annotations.Test;
 
 
 public class UserRegistration extends EDriver {
-    private Logger logger = Logger.getLogger(UserRegistration.class);
+ //   private Logger logger = Logger.getLogger(UserRegistration.class);
     private final int timeOutInSeconds = 15;
 
 
@@ -64,7 +63,7 @@ public class UserRegistration extends EDriver {
 
         String actualEmail = driverHelper.getElement(By.id("email"),timeOutInSeconds).getAttribute("value");
         if (!actualEmail.equals(email)) {
-            logger.error("Actual email -"+actualEmail +", Expected email-"+email);
+        //    logger.error("Actual email -"+actualEmail +", Expected email-"+email);
                }
 
         driverHelper.sendKeys(By.id("passwd"),"abc123",timeOutInSeconds);
