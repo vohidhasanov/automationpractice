@@ -63,3 +63,51 @@
 2019-11-14 12:19:47 ERROR TestNGListener -main : 22 - error
 2019-11-14 12:19:47 INFO  Common -main : 27 - random first name is generated: Anjali
 2019-11-14 12:19:47 INFO  Common -main : 32 - random last name is generated: Block
+2019-11-14 14:56:22 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 14:56:22 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 14:56:22 ERROR TestNGListener -main : 22 - error
+2019-11-14 14:56:40 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 14:56:40 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 14:56:40 ERROR TestNGListener -main : 22 - error
+2019-11-14 14:56:40 INFO  Common -main : 27 - random first name is generated: Melvin
+2019-11-14 14:56:40 INFO  Common -main : 32 - random last name is generated: Bergstrom
+2019-11-14 15:16:32 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:16:32 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:16:32 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:16:57 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:16:57 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:16:57 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:16:57 INFO  Common -main : 27 - random first name is generated: Francesca
+2019-11-14 15:16:57 INFO  Common -main : 32 - random last name is generated: Kutch
+2019-11-14 15:22:31 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:22:31 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:22:31 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:22:45 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:22:45 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:22:45 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:30:52 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:30:52 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:30:52 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:31:15 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:31:15 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:31:15 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:31:15 INFO  Common -main : 27 - random first name is generated: Kelly
+2019-11-14 15:31:15 INFO  Common -main : 32 - random last name is generated: Corkery
+2019-11-14 15:31:35 INFO  Common -main : 18 - sleep for 3000 seconds
+2019-11-14 15:31:41 INFO  Common -main : 18 - sleep for 5000 seconds
+2019-11-14 15:32:45 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:32:45 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:32:45 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:33:03 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:33:03 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:33:03 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:33:03 INFO  Common -main : 27 - random first name is generated: Maye
+2019-11-14 15:33:03 INFO  Common -main : 32 - random last name is generated: Tromp
+2019-11-14 15:34:18 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:34:18 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:34:18 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:34:31 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-14 15:34:31 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-14 15:34:31 ERROR TestNGListener -main : 22 - error
+2019-11-14 15:34:31 INFO  Common -main : 27 - random first name is generated: Matilda
+2019-11-14 15:34:31 INFO  Common -main : 32 - random last name is generated: Willms
