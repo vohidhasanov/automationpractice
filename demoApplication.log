@@ -1,0 +1,197 @@
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: standard
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec  - Opening connection {s}->https://raw.githubusercontent.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to raw.githubusercontent.com/151.101.192.133:443
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Connecting socket to raw.githubusercontent.com/151.101.192.133:443 with timeout 0
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Starting handshake
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Secure session established
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.2
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+[main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+[main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.43.80:49833<->151.101.192.133:443
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 30000
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec  - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 >> Connection: keep-alive
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 >> Host: raw.githubusercontent.com
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Content-Length: 652[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "ETag: "e79f1801de45014586e063bebbb32c9af432e074"[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Geo-Block-List: [\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-GitHub-Request-Id: 5038:26A8:496F10:5B00A0:5DA80167[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Date: Thu, 17 Oct 2019 05:54:06 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Served-By: cache-ams21027-AMS[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Cache-Hits: 3[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Timer: S1571291647.738910,VS0,VE0[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "X-Fastly-Request-ID: decf829c61e3a14a6ae58f4f65f4e48943086693[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Expires: Thu, 17 Oct 2019 05:59:06 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "Source-Age: 147[\r][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Connection: keep-alive
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Content-Length: 652
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Content-Type-Options: nosniff
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Frame-Options: deny
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << ETag: "e79f1801de45014586e063bebbb32c9af432e074"
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Cache-Control: max-age=300
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Geo-Block-List: 
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-GitHub-Request-Id: 5038:26A8:496F10:5B00A0:5DA80167
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Content-Encoding: gzip
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Accept-Ranges: bytes
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Date: Thu, 17 Oct 2019 05:54:06 GMT
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Via: 1.1 varnish
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Served-By: cache-ams21027-AMS
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Cache: HIT
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Cache-Hits: 3
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Timer: S1571291647.738910,VS0,VE0
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Access-Control-Allow-Origin: *
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << X-Fastly-Request-ID: decf829c61e3a14a6ae58f4f65f4e48943086693
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Expires: Thu, 17 Oct 2019 05:59:06 GMT
+[main] DEBUG org.apache.http.headers  - http-outgoing-0 << Source-Age: 147
+[main] DEBUG org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x94][0xcb][0xae][0xdb] [0x10]@[0xf7][0xf9][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "[0xa4][0xbb]i[0x17][0xc1]<l[0xb0]#y[0xd3][0xe7][0xaa][0xea][0xa2][0xdd]WNL[0x12]t[0x1d][0x13]a[0xe7][0xa6][0xed][0xd7][0x97][0xe1][0xe1]K[0xac]V[0xea][0xf2][0x1c][0xc3]0[0xc][0xe3]yB[0xdf][0xcf]zBG=(t0[0xe3][0xdc][0xe9]qB[0xf3]Y[0xa1][0xe7][0xd1][0xdc]G[0xf4][0xa2][0xec][0xa4][0x8d]SGcQo50z[0xb3][0xd7]cg[0xbd]u[0x1b].[0xd7]n[0xd6]{[0xb7][0xf7][0xae][0xe7][0xb3][0xdf]w0[0xd6][0xaa][0xe9]j[0xc6]^[0x8f]'[0xb4][0xb7][0xe6]>)[0x9b][0xe2]l6O[0xe8]]P;[0xf4][0xd9][0x98][0x93][0xdb][0xf9][0xfe]l[0xcd]E[0xa1]-[0xfa][0xe0][0xc3][0xef][0xd0][0xc1][0x8b]p[0x98][[0xff][0xcd][0xdc][0xec]A[0xed][0xd0]y[0x9e][0xaf][0xbb][0xa2][0xc8][0xbf]b[0xf][0xfa]v[0xc1][0xc6][0x9e][0x8a][0xde]%<[0x98][0xae][0x9f]6a[0x8d][0xac][Yc[0x82]yCJLi[0xb2][0xb2][0x95][0x12]l-*\[0x92]dE+[0x85][0xb7][0xa4][0xc1][0x94][0x89][0xa4][0xab]VV[0xa0][0xa5]$[0x98][0xbe][0xae].[Yz[0xcd][0x1a][0xbc][0xac][0xe5][0xad][0xe4] E[0xcd][0xb1][0xa8][0x93]e-[0xc3][0xe5][0xb2][0x86]>[0x10][0x1][0xaa]"[0x89][0x6][0xa8]LT[0x3][0xb1]D[0x12](]A[0x8][0xa0][0x94][0x8c][0xa8][0x1c][0xf1]t[0x9e]([0x81]d"[0xe][0x94][0xce][0x13][0x90][0xb]_[0xce][0x83]\[0xf8]r[0x1e][0xe4][0xc2][0xf9][0xc3][0x3]}1[0xbf][0xf5]0t[0xe8][0x93][0xb6][0xea]h~fOtR[0x87]g[0xf3][0xd7][0x17][0x9a][0xdc][0x13][0x9d]\/[0xdc][0xf6][0xd8]uGq[0x9]![0x8a]lCa[0xd5][0xa0][0xba]IM[0x9b]c[0x88][0xeb].N0s[0xd5]_D[\r][0xa2][0xca][0x84][0x4]QfB[0xac]E[0xb5][0x16]%[0x8][0x9e][0x9][0xbe][0x16][0xc][0x4][0xcb][0x4][0x5]A3AV[0xa2]j[0xd6][0xa2]^[0xb][0xb9][0x16]>S[0x92][0x89]*[0x89][0xbc][0xd4]_[0xaf][0xca]vY[0x81][\r][0xf0][0xff][0x14][0xd8]/[0x9c][0xcc]q[0xbe]wV[0x5]J?[0xc5][0xba][0xdc][0xfe][0xa3]+C[0xd6][0xe8][0x9c]E[0xcb][0xf2]>'$[0xda][0xd8][0x9f][0x1e][0xaa]&[0x87][0xd8][0x9d][0x1]bs[0x6][0x88][0xbd][0x19] [0xb6]f[0x80][0xd8][0x99][0x1]bc[0x6][0x88]}[0x19][0x80][0x86]F[0xc]@2(![0x83][0x94]q[0x9][0x19][0xf0]xN[0x9][0x19][0xb0]&[0x82][0x8][0xf0][0xd0][0xc9][0xfa]`[\r]T[0x9]}[0xec]O[0xf9][0xac][0xb9]L[0xca][0x89][0x16][0xba]W/j[0x80][0xa8][0xf8][0x92]"[0xf8][0xaa][0xab]q{[0x9b][0x8a][0xc5]m!H1[0x1b]3L[0xc5]][0xed]c[0xe1][0xd1]v[0xbb][0x4]R#[0xbe][0xeb]g}U[0xbd][0xee][0xfc][0xb0][0x2]*[0x96][0xb4]~@Z[0x1b][0x88][0x92][0x86][0x16][0x83]![0x15]L[0x1c]X[0x8c]/&[0xe]+Z[0xf3]d[0xe2][0x9c][0xa2][0xbc]q[0xbd][0xe5]UY[0xb6]W[0xab][0xb6]n[0x9c][0xcf][0xdd]0[0xa8]>H[0xd6][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "L%u[0xbf][0xbd]G[0xda]V[0x98][\n]"
+[main] DEBUG org.apache.http.wire  - http-outgoing-0 << "[0xd6]4[0x1]I[0xeb][0x6]eE[0x4][0xf7][0xc8][0xeb][0x96][0xbb][0xa1][0xc7][0x9b][0x80][0xc][0x1e][0x93][0x92][0xaa][0x16][0x1]IK[0x1d]2[0xf7][0xd6][0x0][0xa7]Q$[0xdc]D[0x6][0x0][0x0]"
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+[main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 0
+[main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+[main] INFO  Driver_Factory.TestNGListener  - onTestStart
+[main] ERROR Driver_Factory.TestNGListener  - error is thrown
+[main] ERROR Driver_Factory.TestNGListener  - error
+[main] DEBUG Driver_Factory.TestNGListener  - dubug
+[main] INFO  automationpractice.demos.HoveOverDemo  - Found an element: [[ChromeDriver: chrome on XP (39bec21a6ffd436bc348bd53410542b5)] -> css selector: .figure>img]
+[main] INFO  automationpractice.demos.HoveOverDemo  - Hover over image1
+[main] INFO  Utils.Common  - sleep for 4000 seconds
+[main] INFO  Utils.Common  - sleep for 4000 seconds
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+[main] INFO  Driver_Factory.TestNGListener  - onTestStart
+[main] ERROR Driver_Factory.TestNGListener  - error is thrown
+[main] ERROR Driver_Factory.TestNGListener  - error
+[main] DEBUG Driver_Factory.TestNGListener  - dubug
+[main] INFO  automationpractice.demos.HoveOverDemo  - Found an element: [[ChromeDriver: chrome on XP (3b4853f89bd08e88fbb61fde517630ef)] -> css selector: .figure>img]
+[main] INFO  automationpractice.demos.HoveOverDemo  - Hover over image1
+[main] INFO  Utils.Common  - sleep for 4000 seconds
+[main] INFO  Utils.Common  - sleep for 4000 seconds
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("index.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("head.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("nav.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+[main] DEBUG freemarker.cache  - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+[main] DEBUG freemarker.cache  - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+[main] DEBUG freemarker.cache  - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Vohid-PC/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"

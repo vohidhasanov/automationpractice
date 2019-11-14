@@ -7,6 +7,7 @@ import Utils.Reporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.annotations.*;
@@ -47,11 +48,14 @@ public class EDriver {
         {
             case "chrome":
                 sdriver = getChromeDriver();
-                sdriver.manage().window().maximize();
+                //sdriver.manage().window().maximize();
                 break;
             case "firefox":
                 sdriver = getFirefoxDriver();
                 sdriver.manage().window().maximize();
+                break;
+            case "chrome-headless":
+                    sdriver = getHeadlessChromeDriver();
                 break;
             default:
                 System.out.println("Browser type" + browserType + " invalid.");
@@ -69,8 +73,20 @@ public class EDriver {
 
     private static ChromeDriver getChromeDriver() {
         WebDriverManager.chromedriver().setup();
-        return new ChromeDriver();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--start-maximized");
+        return new ChromeDriver(chromeOptions);
     }
+
+    private static ChromeDriver getHeadlessChromeDriver() {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.addArguments("--start-maximized");
+        chromeOptions.addArguments("--headless");
+        //chromeOptions
+        return new ChromeDriver(chromeOptions);
+    }
+
 
     private static FirefoxDriver getFirefoxDriver() {
         WebDriverManager.firefoxdriver().setup();

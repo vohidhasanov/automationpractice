@@ -2,6 +2,7 @@ package Driver_Factory;
 
 import Utils.DriverHelper;
 import Utils.Reporter;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
@@ -11,16 +12,16 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 import java.io.IOException;
 
 public class DriverListener implements WebDriverEventListener {
-
+private Logger logger = Logger.getLogger(DriverListener.class);
 
     @Override
     public void beforeAlertAccept(WebDriver driver) {
-
+        logger.info ("beforeAlertAccept");
     }
 
     @Override
     public void afterAlertAccept(WebDriver driver) {
-
+        logger.info ("afterAlertAccept");
     }
 
     @Override
@@ -87,7 +88,7 @@ public class DriverListener implements WebDriverEventListener {
     @Override
     public void beforeClickOn(WebElement element, WebDriver driver) {
         String txt = element.getText();
-        Reporter.step.info("Clicked on: "+txt);
+        Reporter.step.info("Clicked on: ");
 
     }
 

@@ -1,0 +1,57 @@
+2019-10-17 11:27:21 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-17 11:27:21 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-17 11:27:21 ERROR TestNGListener -main : 22 - error
+2019-10-17 11:27:26 INFO  HoveOverDemo -main : 22 - Found an element: [[ChromeDriver: chrome on XP (eb95259d63a78a9b0b62710f74dcbcfe)] -> css selector: .figure>img]
+2019-10-17 11:27:26 INFO  HoveOverDemo -main : 24 - Hover over image1
+2019-10-17 11:27:30 INFO  Common -main : 18 - sleep for 4000 seconds
+2019-10-17 11:27:37 INFO  Common -main : 18 - sleep for 4000 seconds
+2019-10-17 11:33:17 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-17 11:33:17 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-17 11:33:17 ERROR TestNGListener -main : 22 - error
+2019-10-17 11:33:30 INFO  HoveOverDemo -main : 22 - Found an element: [[ChromeDriver: chrome on XP (ed2447fb3c81a2e7461de50538714dab)] -> css selector: .figure>img]
+2019-10-17 11:33:30 INFO  HoveOverDemo -main : 24 - Hover over image1
+2019-10-17 11:33:34 INFO  Common -main : 18 - sleep for 4000 seconds
+2019-10-17 11:34:09 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-17 11:34:09 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-17 11:34:09 ERROR TestNGListener -main : 22 - error
+2019-10-17 11:34:48 INFO  HoveOverDemo -main : 22 - Found an element: [[ChromeDriver: chrome on XP (8d020eb428263e4d872c1e5b6a05227f)] -> css selector: .figure>img]
+2019-10-17 11:34:56 INFO  HoveOverDemo -main : 24 - Hover over image1
+2019-10-17 11:35:03 INFO  Common -main : 18 - sleep for 4000 seconds
+2019-10-17 12:20:30 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-17 12:20:30 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-17 12:20:30 ERROR TestNGListener -main : 22 - error
+2019-10-17 12:22:09 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-17 12:22:09 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-17 12:22:09 ERROR TestNGListener -main : 22 - error
+2019-10-18 08:44:23 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-18 08:44:23 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-18 08:44:23 ERROR TestNGListener -main : 22 - error
+2019-10-18 08:44:32 INFO  Common -main : 18 - sleep for 4000 seconds
+2019-10-21 12:08:01 INFO  TestNGListener -main : 15 - onTestStart
+2019-10-21 12:08:01 ERROR TestNGListener -main : 19 - error is thrown
+2019-10-21 12:08:01 ERROR TestNGListener -main : 22 - error
+2019-10-21 12:08:01 INFO  Common -main : 27 - random first name is generated: Dejah
+2019-10-21 12:08:01 INFO  Common -main : 32 - random last name is generated: Nitzsche
+2019-10-21 12:08:28 INFO  Common -main : 18 - sleep for 3000 seconds
+2019-10-21 12:08:34 INFO  Common -main : 18 - sleep for 5000 seconds
+2019-11-03 10:49:19 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-03 10:49:19 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-03 10:49:19 ERROR TestNGListener -main : 22 - error
+2019-11-03 10:49:19 INFO  Common -main : 27 - random first name is generated: Agustina
+2019-11-03 10:49:19 INFO  Common -main : 32 - random last name is generated: Brakus
+2019-11-03 10:49:31 INFO  Common -main : 18 - sleep for 3000 seconds
+2019-11-03 10:49:37 INFO  Common -main : 18 - sleep for 5000 seconds
+2019-11-03 10:59:32 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-03 10:59:32 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-03 10:59:32 ERROR TestNGListener -main : 22 - error
+2019-11-03 10:59:34 INFO  SortableDataTables -main : 19 - Clicked by linkText: 
+2019-11-03 10:59:35 INFO  SortableDataTables -main : 30 - Found element: [[ChromeDriver: chrome on XP (649d243f66476fddf913e9d41b6b3c7a)] -> xpath: (//table[@id='table1']/tbody/tr)[2]//td[6]]
+2019-11-03 11:01:33 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-03 11:01:33 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-03 11:01:33 ERROR TestNGListener -main : 22 - error
+2019-11-03 11:01:36 INFO  SortableDataTables -main : 19 - Clicked by linkText: 
+2019-11-03 11:01:36 INFO  SortableDataTables -main : 30 - Found element: [[ChromeDriver: chrome on XP (064270a40fbd7967a78d89a9a1432148)] -> xpath: (//table[@id='table1']/tbody/tr)[2]//td[6]]
+2019-11-03 11:09:33 INFO  TestNGListener -main : 15 - onTestStart
+2019-11-03 11:09:33 ERROR TestNGListener -main : 19 - error is thrown
+2019-11-03 11:09:33 ERROR TestNGListener -main : 22 - error
+2019-11-03 11:09:41 INFO  Common -main : 18 - sleep for 3000 seconds
