@@ -1,10 +1,11 @@
 package com.Automationpractice.login;
 
+import Driver_Factory.NonStaticDriver;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTests extends Driver_Factory.driver {
+public class LoginTests extends NonStaticDriver {//extends Driver_Factory.driver {
 
     @Test(groups = {"functional", "integration"})
     public void testOne()
