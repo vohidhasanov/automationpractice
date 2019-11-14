@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Tests">
+  <test name="Simple example">
+    <groups>
+      <run>
+        <include name="integration"/>
+<!--        <exclude name="broken"/>-->
+      </run>
+    </groups>
+
+    <classes>
+      <class name="com.Automationpractice.login.LoginTests"/>
+    </classes>
+  </test>
+
+
+
+</suite> <!-- Regression -->

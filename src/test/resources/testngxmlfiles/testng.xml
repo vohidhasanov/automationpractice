@@ -1,0 +1,12 @@
+<suite name="Smoke Tests" >
+
+    <test name="registration test">
+        <classes>
+
+            <class name="com.Automationpractice.user_registration.UserRegistration"/>
+            <class name="com.Automationpractice.login.LoginTests"/>
+
+        </classes>
+    </test>
+
+</suite>
