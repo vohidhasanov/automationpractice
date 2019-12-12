@@ -944,3 +944,16 @@
 2019-12-13 00:58:29 INFO  Common -main : 32 - random last name is generated: Heidenreich
 2019-12-13 00:58:45 INFO  Common -main : 18 - sleep for 3000 seconds
 2019-12-13 00:58:51 INFO  Common -main : 18 - sleep for 5000 seconds
+2019-12-13 01:02:30 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 01:02:30 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 01:02:30 ERROR TestNGListener -main : 22 - error
+2019-12-13 01:02:30 INFO  Common -main : 27 - random first name is generated: Lizzie
+2019-12-13 01:02:30 INFO  Common -main : 32 - random last name is generated: Rosenbaum
+2019-12-13 01:02:49 INFO  Common -main : 18 - sleep for 3000 seconds
+2019-12-13 01:02:55 INFO  Common -main : 18 - sleep for 5000 seconds
+2019-12-13 01:02:55 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 01:02:55 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 01:02:55 ERROR TestNGListener -main : 22 - error
+2019-12-13 01:03:10 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 01:03:10 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 01:03:10 ERROR TestNGListener -main : 22 - error

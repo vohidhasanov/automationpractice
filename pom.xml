@@ -26,7 +26,7 @@
                     <version>2.20.1</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>C:\Users\Vohid\IdeaProjects\automationpractice\src\test\resources\testngxmlfiles\regressionTest.xml</suiteXmlFile>
+                            <suiteXmlFile>C:\Users\Vohid\IdeaProjects\automationpractice\src\test\resources\testngxmlfiles\testng.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
