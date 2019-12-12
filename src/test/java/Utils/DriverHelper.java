@@ -42,7 +42,6 @@ public final class DriverHelper {
     }
 
 
-
     public WebElement getElement (By by, int timeOutInSeconds)
     {
         webElementVisibility(by, timeOutInSeconds);
@@ -83,11 +82,11 @@ public final class DriverHelper {
 
     public void takeScreenShot()
     {
-        TakesScreenshot takesScreenshot = (TakesScreenshot) eDriver;
+        TakesScreenshot takesScreenshot =((TakesScreenshot) driver);
         File file = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
         try {
-            FileUtils.copyFile(file, new File ( System.getProperty("user.dir")+"/target/ScreenShots/FileName"+System.currentTimeMillis()+".png "));
+            FileUtils.copyFile(file, new File ( System.getProperty("user.dir")+ "/target/screenshots/FileName" +System.currentTimeMillis()+".png "));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -95,7 +94,8 @@ public final class DriverHelper {
 
     public static String takeScreenShotFroReporting(WebDriver driver)
     {   long ms = System.currentTimeMillis();
-        String path =System.getProperty("user.dir")+"/target/ScreenShots/FileName"+ms;
+        String path =System.getProperty("user.dir")+ "/target/screenshots/FileName" +ms;
+        System.out.println(path);
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
         File file = takesScreenshot.getScreenshotAs(OutputType.FILE);
 

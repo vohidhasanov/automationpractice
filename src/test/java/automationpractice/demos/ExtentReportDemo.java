@@ -19,7 +19,7 @@ public class ExtentReportDemo extends EDriver {
     @Test
     public void login_with_invalid_userID () {
 
-        driver.get("http://automationpractice.com/");
+        driver.get("http://automationpractice.com/index.php");
 
         driver.findElement(By.className("login")).click();
         //driver.findElement(By.id("email")).sendKeys("mynknownxadd@mailiminator.com");

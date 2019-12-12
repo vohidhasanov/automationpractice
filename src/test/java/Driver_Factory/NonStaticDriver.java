@@ -38,7 +38,7 @@ public class NonStaticDriver {
     public void init() {
         if (driver == null) driver = getDriver();
         Common.deleteFiles("/target/screenshots");
-        // if (driverHelper == null) driverHelper = new DriverHelper(driver);
+         if (driverHelper == null) driverHelper = new DriverHelper(driver);
     }
 
     protected NonStaticDriver() {

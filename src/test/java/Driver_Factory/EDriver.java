@@ -35,7 +35,7 @@ public class EDriver {
     @BeforeTest
     public void init() {
         if (sdriver == null) sdriver = getDriver(AppProperties.BROWSER_TYPE);
-        Common.deleteFiles("/target/screenshots");
+       // Common.deleteFiles("/target/screenshots");
 
     }
 

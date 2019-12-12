@@ -26,7 +26,7 @@
                     <version>2.20.1</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <suiteXmlFile>C:\Users\Vohid-PC\gitRepo\automationpractice\src\test\resources\testngxmlfiles\SmokeTest.xml</suiteXmlFile>
+                            <suiteXmlFile>C:\Users\Vohid\IdeaProjects\automationpractice\src\test\resources\testngxmlfiles\loginTest.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
