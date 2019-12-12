@@ -928,3 +928,19 @@
 2019-12-12 22:34:14 INFO  TestNGListener -main : 15 - onTestStart
 2019-12-12 22:34:14 ERROR TestNGListener -main : 19 - error is thrown
 2019-12-12 22:34:14 ERROR TestNGListener -main : 22 - error
+2019-12-13 00:58:11 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 00:58:11 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 00:58:11 ERROR TestNGListener -main : 22 - error
+2019-12-13 00:58:29 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 00:58:29 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 00:58:29 ERROR TestNGListener -main : 22 - error
+2019-12-13 00:58:29 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 00:58:29 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 00:58:29 ERROR TestNGListener -main : 22 - error
+2019-12-13 00:58:29 INFO  TestNGListener -main : 15 - onTestStart
+2019-12-13 00:58:29 ERROR TestNGListener -main : 19 - error is thrown
+2019-12-13 00:58:29 ERROR TestNGListener -main : 22 - error
+2019-12-13 00:58:29 INFO  Common -main : 27 - random first name is generated: Bart
+2019-12-13 00:58:29 INFO  Common -main : 32 - random last name is generated: Heidenreich
+2019-12-13 00:58:45 INFO  Common -main : 18 - sleep for 3000 seconds
+2019-12-13 00:58:51 INFO  Common -main : 18 - sleep for 5000 seconds
